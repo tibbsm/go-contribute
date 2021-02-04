@@ -2,16 +2,6 @@ package main
 
 import "flag"
 
-// scan a given path and its subfolders to search for Git repos
-func scan(path string) {
-	print("scan")
-}
-
-// generates graph of contributions
-func stats(email string) {
-	print("stats")
-}
-
 func main() {
 	var folder string
 	var email string
